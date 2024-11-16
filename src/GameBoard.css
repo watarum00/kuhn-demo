@@ -1,0 +1,60 @@
+/* GameBoard.css */
+.result-modal, .thinking-modal, .action-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  z-index: 1000;
+}
+
+.chip-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.action-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  min-width: 100px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 10px;
+}
+
+.action-button:hover {
+  background-color: #0056b3;
+}
+
+.action-button:active {
+  background-color: #004494;
+}
+
+.restart-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.restart-button:hover {
+  background-color: #c82333;
+}
+
+.restart-button:active {
+  background-color: #bd2130;
+}
