@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/kuhn-demo/static/css/main.1941c062.css",
+    "main.css": "/kuhn-demo/static/css/main.b75845ef.css",
     "main.js": "/kuhn-demo/static/js/main.6b9aa4a8.js",
     "static/js/453.34587659.chunk.js": "/kuhn-demo/static/js/453.34587659.chunk.js",
     "index.html": "/kuhn-demo/index.html",
-    "main.1941c062.css.map": "/kuhn-demo/static/css/main.1941c062.css.map",
+    "main.b75845ef.css.map": "/kuhn-demo/static/css/main.b75845ef.css.map",
     "main.6b9aa4a8.js.map": "/kuhn-demo/static/js/main.6b9aa4a8.js.map",
     "453.34587659.chunk.js.map": "/kuhn-demo/static/js/453.34587659.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1941c062.css",
+    "static/css/main.b75845ef.css",
     "static/js/main.6b9aa4a8.js"
   ]
 }
