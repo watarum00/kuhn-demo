@@ -1,3 +1,7 @@
+# Kuhn Poker demo
+[github pages link](https://watarum00.github.io/kuhn-demo/)
+Opponent randomly chooses action.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

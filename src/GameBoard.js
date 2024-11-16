@@ -267,7 +267,7 @@ function GameBoard() {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5, type: "spring" }}
         >
-          <h2>CPU chosed {cpuAction}!</h2>
+          <h2>CPU chose {cpuAction}!</h2>
           <motion.button
             onClick={() => setCpuAction(null)}
             whileHover={{ scale: 1.05 }}
