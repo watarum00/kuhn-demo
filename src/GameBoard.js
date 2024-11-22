@@ -252,8 +252,8 @@ function GameBoard() {
       {isCpuThinking && (
         <motion.div
           className="thinking-modal"
-          initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 1, scale: 1 }}
+          initial={{ opacity: 0, scale: 0.8, x: '-50%', y: '-50%' }}
+          animate={{ opacity: 1, scale: 1, x: '-50%', y: '-50%' }}
           transition={{ duration: 0.5, type: "spring" }}
         >
           <h2>CPU is thinking...</h2>
@@ -263,8 +263,8 @@ function GameBoard() {
       {cpuAction && (
         <motion.div
           className="action-modal"
-          initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 1, scale: 1 }}
+          initial={{ opacity: 0, scale: 0.8, x: '-50%', y: '-50%' }}
+          animate={{ opacity: 1, scale: 1, x: '-50%', y: '-50%' }}
           transition={{ duration: 0.5, type: "spring" }}
         >
           <h2>CPU chose {cpuAction}!</h2>
@@ -282,8 +282,8 @@ function GameBoard() {
       {gameResult && (
         <motion.div
           className="result-modal"
-          initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 1, scale: 1 }}
+          initial={{ opacity: 0, scale: 0.8, x: '-50%', y: '-50%' }}
+          animate={{ opacity: 1, scale: 1, x: '-50%', y: '-50%' }}
           transition={{ duration: 0.5, type: "spring" }}
         >
           <h2>{gameResult}</h2>
